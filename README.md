@@ -36,14 +36,14 @@ Runs the app in the development mode.\
 
 #### Modules
 
-Go to the Frontend folder Install the following external libraries for proper frontend project execution:
+Go to the Frontend folder Install, the following external libraries for proper frontend project execution:
 
 - npm install @material-ui/core
 - npm install timeago.js
 
 ### Available Scripts
 
-In the project directory, you can run:
+In the Frontend directory, you can run:
 
 * `npm start`
 
