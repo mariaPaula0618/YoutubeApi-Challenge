@@ -15,7 +15,7 @@ const CssTextField = withStyles({
         borderColor: '#cdcdcd',
       },
       '&:hover fieldset': {
-        borderColor: '#636363',
+        borderColor: '#465870',
       },
       '&.Mui-focused fieldset': {
         borderColor: '#24a4ac',
@@ -36,7 +36,6 @@ export const Searcher = () => {
   } 
 
   const handleClick = () =>{
-    console.log(keyword)
     history.push(`/VideosList/${keyword}`)
   };
            
