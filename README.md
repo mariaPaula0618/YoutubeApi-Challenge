@@ -3,7 +3,7 @@ Challenge to build a web application to search and display the first 200 YouTube
 
 ## Instructions to execute the code
 
-### `Backend Folder:`
+### `Backend:`
 
 ## Local Execution
 
@@ -30,16 +30,16 @@ In the backend directory, go to the next backend folder (cd backend), once here 
 
 Runs the app in the development mode.\
 
-### `Frontend Folder:`
+### `Frontend:`
 
 ## Local Execution
 
 #### Modules
 
-  Install the following external libraries for proper frontend project execution:
+Go to the Frontend folder Install the following external libraries for proper frontend project execution:
 
-- Material UI
-- timeago.js
+- npm install @material-ui/core
+- npm install timeago.js
 
 ### Available Scripts
 
