@@ -29,13 +29,14 @@ const CssTextField = withStyles({
 export const Searcher = () => {
 
   let history = useHistory();
-  const [keyword,setKeyword] = useState('')
+  const [keyword,setKeyword] = useState(" ")
 
   const handleChange = (e) =>{
     setKeyword(e.target.value)
   } 
 
   const handleClick = () =>{
+    console.log(keyword)
     history.push(`/VideosList/${keyword}`)
   };
            
