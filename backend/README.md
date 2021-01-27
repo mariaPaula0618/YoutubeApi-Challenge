@@ -6,7 +6,7 @@ This project was made it using django framework and Python 3.8.1
 
 ### Available Scripts
 
-Go to the project folder and run the following command to activate the virtual environment
+Go to the project folder and run the following command to activate the virtual environment:
 #### `Scripts\activate`
 
 
