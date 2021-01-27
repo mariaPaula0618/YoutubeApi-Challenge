@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { format } from 'timeago.js';
 
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -7,10 +7,22 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 
+
+
 export const CardVideo = (props) => {
 
 
     const video = props.video;
+
+    const description = video.description.substring(0, 100) + " ...";
+    //
+    const nf = new Intl.NumberFormat("en-US"); 
+    const views = nf.format(video.viewCount)
+
+
+
+    const date = format(video.publishedAt)
+
 
     const handleClickVideo = () =>{
         window.location.href = video.url; 
@@ -18,10 +30,6 @@ export const CardVideo = (props) => {
 
     }
 
-    const description = video.description.substring(0, 100) + " ...";
-    //
-    const nf = new Intl.NumberFormat("en-US"); 
-    const views = nf.format(video.viewCount)
 
     return (
 
@@ -54,7 +62,7 @@ export const CardVideo = (props) => {
                         {description}
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary">
-                        {video.publishedAt}
+                        {date}
                     </Typography>
 
                     </CardContent>
