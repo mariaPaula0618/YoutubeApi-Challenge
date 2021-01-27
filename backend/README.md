@@ -1,20 +1,29 @@
 # YoutubeApi-Challenge
 
+This project was made it using django framework and Python 3.8.1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Local Execution
 
-## Available Scripts
+### Available Scripts
 
-In the project directory, you can run:
+Go to the project folder and run the following command to activate the virtual environment:
+#### `Scripts\activate`
 
-### `npm start`
+
+#### Modules
+
+  Install the following external libraries for proper backend project execution:
+
+- python -m pip install django-cors-headers
+- python -mpip install djangorestframework
+- python -mpip install requests
+
+
+### Available Scripts
+
+In the project directory, go to the backend folder (cd backend), once here you can run:
+
+#### `python manage.py runserver`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `Modules`
-
-
-pip install django-cors-headers
-pip install djangorestframework
-pip install requests
