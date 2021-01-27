@@ -8,7 +8,7 @@ const BaseRouter = (props) => (
     <Router>
         <Switch>
             <Route exact path="/" component={Searcher} />
-            <Route  path="/VideosList/:keyword" component={VideosList} />
+            <Route exact path="/VideosList/:keyword" component={VideosList} />
         </Switch>
     </Router>
     </div>

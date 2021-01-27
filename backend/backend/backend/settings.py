@@ -36,9 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'backend.challengeAPI',
+
     'rest_framework',
     'corsheaders',
+
+    # Our modules
+    'backend.challengeAPI',
 
 ]
 

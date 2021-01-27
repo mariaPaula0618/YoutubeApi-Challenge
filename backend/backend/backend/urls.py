@@ -17,6 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    # django admin paths
     path('admin/', admin.site.urls),
+
+    # challengeAPI app paths
     path('', include('backend.challengeAPI.urls')),
 ]
